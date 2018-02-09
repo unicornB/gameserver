@@ -1,0 +1,252 @@
+{
+  "keys": "E:\\git\\gameserver\\config\\config.default.js",
+  "io": {
+    "init": "E:\\git\\gameserver\\config\\config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "E:\\git\\gameserver\\config\\config.default.js",
+        "packetMiddleware": "E:\\git\\gameserver\\config\\config.default.js"
+      }
+    },
+    "redis": {
+      "host": "E:\\git\\gameserver\\config\\config.default.js",
+      "port": "E:\\git\\gameserver\\config\\config.default.js",
+      "auth_pass": "E:\\git\\gameserver\\config\\config.default.js",
+      "db": "E:\\git\\gameserver\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\git\\gameserver\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "E:\\git\\gameserver\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\git\\gameserver\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "E:\\git\\gameserver\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "useSession": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "cookieName": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "sessionName": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "headerName": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "bodyName": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "queryName": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "value": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.local.js",
+      "maxAge": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "value": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "policy": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\git\\gameserver\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\git\\gameserver\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\git\\gameserver\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\git\\gameserver\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\git\\gameserver\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\git\\gameserver\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\git\\gameserver\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\git\\gameserver\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\git\\gameserver\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\git\\gameserver\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\git\\gameserver\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\git\\gameserver\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\git\\gameserver\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
+      "development": "E:\\git\\gameserver\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fields": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "files": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\git\\gameserver\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\git\\gameserver\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\git\\gameserver\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "fastReady": "E:\\git\\gameserver\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\git\\gameserver\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\git\\gameserver\\node_modules\\_egg-development@2.2.0@egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\git\\gameserver\\node_modules\\_egg-schedule@3.2.0@egg-schedule\\config\\config.default.js",
+      "file": "E:\\git\\gameserver\\node_modules\\_egg-schedule@3.2.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\git\\gameserver\\node_modules\\_egg-logrotator@3.0.1@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "dir": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "dynamic": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "preload": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "buffer": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\git\\gameserver\\node_modules\\_egg-static@2.1.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\git\\gameserver\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js",
+    "cache": "E:\\git\\gameserver\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\git\\gameserver\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\git\\gameserver\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js",
+    "mapping": "E:\\git\\gameserver\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "name": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "proxy": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "ipHeaders": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "hostHeaders": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "version": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "description": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "main": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "start": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    },
+    "author": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "license": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "egg-socket.io": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "HOME": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "rundir": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "notFound": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "sitefile": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "middlewares": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "httpClient": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "encoding": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "formLimit": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "jsonLimit": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "strict": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "depth": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "parameterLimit": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "encoding": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "env": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "level": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "consoleLevel": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "outputJSON": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "buffer": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "appLogName": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "coreLogName": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "agentLogName": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "errorLogName": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+    "logging": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "port": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js",
+      "hostname": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "E:\\git\\gameserver\\node_modules\\_egg@2.3.0@egg\\config\\config.default.js"
+  }
+}
